@@ -1,4 +1,151 @@
 {
-  "users": [],
-  "tasks": []
+  "users": [
+    {
+      "email": "rafael@mail.com",
+      "password": "$2a$10$UP.MatAC5YLTzbi1T5HJLuS8SJ2aiZHnFUo.SHjeMtGSoz4bUUm8m",
+      "firstName": "Rafael",
+      "lastName": "Oliveira Carvalho",
+      "age": 34,
+      "id": 1
+    },
+    {
+      "email": "thati@mail.com",
+      "password": "$2a$10$d3NuR8byW3W0A.Vf3Ix23.wsRsXjELeEJMikrHXE4aeqBo7vHPfka",
+      "firstName": "Thatiane",
+      "lastName": "Aparecida Bezerra",
+      "age": 36,
+      "id": 2
+    },
+    {
+      "email": "johndoe@mail.com",
+      "password": "$2a$10$SNreM1hQJJLXpzpnh3E6zeK2NsL1idMyTO3hKD9Z.wUrpERSoVjyW",
+      "firstName": "John",
+      "lastName": "Doe",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "X-Burguer",
+      "category": "Sanduíches",
+      "price": 10,
+      "img": "Sanduiches/cheeseburger.png"
+    },
+    {
+      "id": 2,
+      "name": "X-Bacon",
+      "category": "Sanduíches",
+      "price": 13,
+      "img": "Sanduiches/cheesebacon.png"
+    },
+    {
+      "id": 3,
+      "name": "X-Monster",
+      "category": "Sanduíches",
+      "price": 16,
+      "img": "Sanduiches/monster1.png"
+    },
+    {
+      "id": 4,
+      "name": "Big Chicken",
+      "category": "Sanduíches",
+      "price": 12,
+      "img": "Sanduiches/frango.png"
+    },
+    {
+      "id": 5,
+      "name": "Kids",
+      "category": "Sanduíches",
+      "price": 8,
+      "img": "Sanduiches/frangoKids.png"
+    },
+    {
+      "id": 6,
+      "name": "Combo Individual",
+      "category": "Combos",
+      "price": 20,
+      "img": "Combos/individual1.png"
+    },
+    {
+      "id": 7,
+      "name": "Refrigerante Lata 350ml",
+      "category": "Bebidas",
+      "price": 5,
+      "img": "Bebidas/refrigerantesLata.png"
+    },
+    {
+      "id": 8,
+      "name": "Suco Natural laranja 350ml",
+      "category": "Bebidas",
+      "price": 5,
+      "img": "Bebidas/sucoLaranja.png"
+    },
+    {
+      "id": 9,
+      "name": "Porção de Batata Frita",
+      "category": "Porções",
+      "price": 5,
+      "img": "Porcoes/batata.png"
+    },
+    {
+      "id": 10,
+      "name": "Porção de Nuggets",
+      "category": "Porções",
+      "price": 5,
+      "img": "Porcoes/nuggets.png"
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "productId": 6,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 3,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "productId": 8,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "productId": 4,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "productId": 10,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "productId": 7,
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "productId": 7,
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "productId": 3,
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "productId": 3,
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "productId": 3,
+      "id": 11
+    }
+  ]
 }
