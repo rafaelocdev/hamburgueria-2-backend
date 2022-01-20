@@ -1,13 +1,13 @@
-<h1 align="center"><strong>To Do List - API</strong></h1>
+<h1 align="center"><strong>Hamburgueria 2.0 - API</strong></h1>
 
-Está é uma fake API criada utilizando as bibliotecas json-server e json-server-auth, para que usuários possam se cadastrar e fazer login, cadastrar novas tarefas, atualizá-las e deletá-las.
+Está é uma fake API criada utilizando as bibliotecas json-server e json-server-auth, para que usuários possam se cadastrar e fazer login, visualizar produtos, adicionar e remover produtos do carrinho de compras, bem como visualizar os produtos presentes no carrinho.
 
 <br/>
 <br/>
 
 <h2 align="center"><strong>Endpoints</strong></h2>
 
-Esta API possui um total de 7 endpoints destinados a cadastro e login de usuários, criar, editar e deletar tarefas, além de podem listar tanto todas as tarefas como tarefas de um usuário específico.
+Esta API possui um total de 6 endpoints destinados a cadastro e login de usuários, listar os produtos presentes no banco de dados, adicionar e remover produtos ao carrinho de compras, e listar os produtos adicionados ao carrinho.
 
 <br/>
 <br/>
@@ -16,14 +16,14 @@ Esta API possui um total de 7 endpoints destinados a cadastro e login de usuári
 
 ## _Criação de usuário_
 
--> POST /register - Formato da requisição:
+-> POST /signup - Formato da requisição:
 
 ```json
 {
-  "email": "rafael@mail.com",
-  "password": "123456",
-  "name": "Rafael",
-  "age": 34
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "johndoe@mail.com",
+  "password": "123456"
 }
 ```
 
@@ -31,11 +31,11 @@ Esta API possui um total de 7 endpoints destinados a cadastro e login de usuári
 
 ```json
 {
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRoYXRpQG1haWwuY29tIiwiaWF0IjoxNjQyMjgyNjgxLCJleHAiOjE2NDIyODYyODEsInN1YiI6IjMifQ.Zv81yyypXVCArmT7-UEN-lX-yOPtRH0vFHMuh55BqTU",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvaG5kb2VAbWFpbC5jb20iLCJpYXQiOjE2NDI2OTEzMDUsImV4cCI6MTY0MjY5NDkwNSwic3ViIjoiMyJ9.N9ganD_bsI8eqT4Qg8dCs11YSdzhPnAMy0k64bIvyus",
   "user": {
-    "email": "thati@mail.com",
-    "name": "Thatiane",
-    "age": 34,
+    "email": "johndoe@mail.com",
+    "firstName": "John",
+    "lastName": "Doe",
     "id": 3
   }
 }
@@ -55,7 +55,7 @@ Esta API possui um total de 7 endpoints destinados a cadastro e login de usuári
 
 ```json
 {
-  "email": "rafael@mail.com",
+  "email": "johndoe@mail.com",
   "password": "123456"
 }
 ```
@@ -64,12 +64,12 @@ Esta API possui um total de 7 endpoints destinados a cadastro e login de usuári
 
 ```json
 {
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhZmFlbEBtYWlsLmNvbSIsImlhdCI6MTY0MjI4Mjc2MywiZXhwIjoxNjQyMjg2MzYzLCJzdWIiOiIyIn0.riiZMj6D1eQiXFCZ3buczTebwH5-DaLHlpb6MTCRe9g",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvaG5kb2VAbWFpbC5jb20iLCJpYXQiOjE2NDI2OTIzODQsImV4cCI6MTY0MjY5NTk4NCwic3ViIjoiMyJ9.cElHg0CvBZx_aCyw1Utuqp7AXjcQUXyLpjE6UvQ0NCw",
   "user": {
-    "email": "rafael@mail.com",
-    "name": "Rafael",
-    "age": 34,
-    "id": 2
+    "email": "johndoe@mail.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "id": 3
   }
 }
 ```
@@ -82,20 +82,47 @@ Esta API possui um total de 7 endpoints destinados a cadastro e login de usuári
 <br/>
 <br/>
 
+## _Listagem de produtos_
+
+-> GET /products - Formato da requisição:
+
+-> Status code 200 - Formato da resposta:
+
+```json
+[
+  {
+    "id": 1,
+    "name": "X-Burguer",
+    "category": "Sanduíches",
+    "price": 10,
+    "img": "Sanduiches/cheeseburger.png"
+  },
+  {
+    "id": 2,
+    "name": "X-Bacon",
+    "category": "Sanduíches",
+    "price": 13,
+    "img": "Sanduiches/cheesebacon.png"
+  }
+]
+```
+
+<br/>
+<br/>
+
 <h2 align="center">Endpoints que necessitam de autenticação</h2>
 
 <br/>
 <br/>
 
-## _Criação de nova tarefa_
+## _Adicionar produtos ao carrinho de compras_
 
--> POST /users/:userId/tasks - Formato da requisição:
+-> POST /carts - Formato da requisição:
 
 ```json
 {
-  "title": "Beber Vinho",
-  "description": "Beber 1 cálice de vinho",
-  "frequency": "Diariamente"
+  "userId": 2,
+  "productId": 3
 }
 ```
 
@@ -103,123 +130,43 @@ Esta API possui um total de 7 endpoints destinados a cadastro e login de usuári
 
 ```json
 {
-  "title": "Beber Água",
-  "description": "Beber 2 litros de água",
-  "frequency": "Diariamente",
-  "userId": "2",
-  "id": 4
+  "userId": 2,
+  "productId": 3,
+  "id": 10
 }
 ```
 
 <br/>
 <br/>
 
-## _Atualização de tarefa_
+## _Remover produtos do carrinho de compras_
 
--> PUT ou PATCH /users/:userId/tasks - Formato da requisição:
-
-```json
-{
-  "title": "Beber Vinho",
-  "description": "Beber 1 cálice de vinho",
-  "frequency": "Diariamente"
-}
-// Utilizar somente os campos que sofrerão alteração
-```
-
--> Status code 200 - Formato da resposta:
-
-```json
-{
-  "title": "Beber Água",
-  "description": "Beber 2 litros de água",
-  "frequency": "Diariamente",
-  "userId": "2",
-  "id": 4
-}
-```
-
-<br/>
-<br/>
-
-## _Deletar tarefa_
-
--> DELETE /tasks/:taskId - Formato da requisição:
-
-```json
-{
-  "userId": 2
-}
-```
+-> DELETE /carts/:cartId - Formato da requisição:
 
 -> Status code 200 - Formato da resposta: Sem corpo
 
 <br/>
 <br/>
 
-## _Listar tarefas do usuário logado_
+## _Listar produtos presentes no carrinho_
 
--> GET /users/:userId/tasks - Formato da requisição: sem corpo
-
--> Status code 200 - Formato da resposta:
-
-```json
-[
-  {
-    "title": "Beber Água",
-    "description": "Beber 2 litros de água",
-    "frequency": "Diariamente",
-    "userId": "2",
-    "id": 3
-  },
-  {
-    "title": "Fazer caminhadas",
-    "description": "Caminhar 5 quilômetros",
-    "frequency": "Diariamente",
-    "userId": "2",
-    "id": 4
-  }
-]
-```
-
-<br/>
-<br/>
-
-## _Listar tarefas do todos os usuários cadastrados_
-
--> GET /tasks - Formato da requisição: sem corpo
+-> GET /users/:userId?\_embed=carts - Formato da requisição: sem corpo
 
 -> Status code 200 - Formato da resposta:
 
 ```json
-[
-  {
-    "title": "Beber Água",
-    "description": "Beber 2 litros de água",
-    "frequency": "Diariamente",
-    "userId": "1",
-    "id": 1
-  },
-  {
-    "title": "Beber Café",
-    "description": "Beber 1 caneca de café",
-    "frequency": "Diariamente",
-    "userId": "1",
-    "id": 2
-  },
-  {
-    "title": "Beber Água",
-    "description": "Beber 2 litros de água",
-    "frequency": "Diariamente",
-    "userId": "2",
-    "id": 3
-  },
-  {
-    "title": "Fazer caminhadas",
-    "description": "Caminhar 5 quilômetros",
-    "frequency": "Diariamente",
-    "userId": "2",
-    "id": 4
-  }
-]
+{
+  "email": "johndoe@mail.com",
+  "password": "$2a$10$SNreM1hQJJLXpzpnh3E6zeK2NsL1idMyTO3hKD9Z.wUrpERSoVjyW",
+  "firstName": "John",
+  "lastName": "Doe",
+  "id": 3,
+  "carts": [
+    {
+      "userId": 3,
+      "productId": 3,
+      "id": 11
+    }
+  ]
+}
 ```
