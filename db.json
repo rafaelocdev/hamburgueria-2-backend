@@ -30,70 +30,70 @@
       "name": "X-Burguer",
       "category": "Sanduíches",
       "price": 10,
-      "img_url": "https://lh3.googleusercontent.com/7rr-iPNCu6FK2xvsCtMwwOYQ7IwOCwCWmQXURHjQ5Vn4qqdRbKQYp1rbitYOfRnPqfJ0nc2ugO9DvKsKkGtNQp0iHlvCOFHORT1wT8h3IFKntfD5VEBHda8IQAf-Jn93ueXCDutVRAHipyh4I8yJurF9YeVXIBHcPUClnawR5Q65vcl15Zwo3d1KiEIBBfxbUi8S4y8AH9zKqjEUrH0in5Y53GrhZROPAbr8J3JixNGTs2NUJQH9yrRCg6BS758HBulcy-xLJA6sOzq37XpDP0ENLH8sPkZTrWXcQgSDnjQ5CfLHVIIZ2UaT9DFY-MBribDTuqbO65KW3xZd9Qbo3Fp1ZPfoaxzLoEafMlEooj8vlEtiku8uqS8XDeCAmXEbCXKUPn6ebM8P1X6ivM1PcFLs2myH2N3_6It0h_Kqy2pDlIaQTklmmJWV3OVCwUsCxVHPN_3cJ_DJczGgzjMn2lXVOZ6LqD9P9MuUSUIVz9ccWlA2R5sXTqfmXnOAQPUu7RMG4IyRPB4h-gjrAk09lamth-MbFkP0AiqzE4pU3zS8nX1xBIA-IJFqYSpxrxe14PYZfUKL5K2aZh1VI8bjxubCM9yM3aSf1HShMEHjgRhPWrvsWCdramSgzMno8INsD3hJXipmwVI-ztp_Bh7RzzCPRYAAWe7gaSFrsFBeWw0XJ2Aeyn2WKoC7uDa9394-Nrik3g5MVoqZHq3iThhsCCMS5Q=w960-h756-no?authuser=0"
+      "img_url": "Sanduiches/cheeseburger.png"
     },
     {
       "id": 2,
       "name": "X-Bacon",
       "category": "Sanduíches",
       "price": 13,
-      "img_url": "https://lh3.googleusercontent.com/awCP3CHqFbElsF2W9auToW3gxpy4Ez1htFwuow4KbQPQTB0aSkGnCRgKCogsyGF7B4oKu-bOv6knpLbLy6qiocY_Fb2-NW4XU3qLerMhr-BQujpJ4z-iall9i6jItHfY6YQsjC83YtGeb-MIckPpQ3gPjZhaOLgcoN8wA5xpQDhK1mn2ExG_h5-OvNNrHQZ8tAzGo7khUIHNKhrQYdeeIpyI_gUfD6_-m9w0I6S7h1NYWrAhfjcBiD2q6_EjEyWsoJerBVG-xZ1RvhqA6ownVF0FYRAUU6yf6c6B9qHx2xK5YBGutc6numcRPlu8tUT7pjSaF-_p0x2-P6X4thTCkSr03lqvobqhP0qlZfwAnAlyJoqxkZ8wuB-E4L7ywxr2lYY8g0xef2FDfpV-p0Z-kxJR--2Dsqu95VKkbjm0e35TYtKtWLFcJwdipBERjE1dwFUgTAqrY2dBwG8jSbuA1bkkCGnG9duOPvcPGHiXDMJFXRYOFgmDfPMpGvmf0DSViY24sKbLpHRxOxWuTeWpje1Lri-pZB5v9OiSfCm1rvnOkkWPcUsseEwy29gcG1NwOQSZsQZQXZLof_MLysLi1FN3XWTRKosUvC51-7wcWcA_9xhY14sG8MWhm6QgfGfJJiTJW4bbVtsDDX1MRsccStLUz8aoLCoOz38Sw6QjP_higXy5bEcTftbzcuB33apUhq8yPZ2pQ48LunMW-SQL-kjYhw=w600-h480-no?authuser=0"
+      "img_url": "Sanduiches/cheesebacon.png"
     },
     {
       "id": 3,
       "name": "X-Monster",
       "category": "Sanduíches",
       "price": 16,
-      "img_url": "https://lh3.googleusercontent.com/wP47B-R_zSxR679CW2F4_24vn9E485gC7-GJxiHtm0-cR0h3OoA7-e6Bs1YLDCwKIqKRqmyUCbShDOZY4aw9W7fYqOLFpjC-YN1_U91ErJHJWLBDIdhk3LnP8rCn7uI8STt5QaRTaavrtRzKAE098ZihNfn0qYOy2qh-6ec4wIOxkDOJkEUXViStM6PjN2woTrAr-XVrCTZFsZj9LrRlNxv6FRc-ROBJhtKJO1KvS1LDCo_cJi3kFUfWrTb_5Amdb7_TAsAYTo23OvVhGsE2pUIv_aWWm-MboCoiclpAksj2HI-0jqtBn71Z69lkfwQEPtGHCdMJDgHfAKKw6D4kZjfDlo8hQbLcChMu_L4Bzf9NYGrNd8uan0MnUZIoXznu50TAXAnjf9FcUnc69pjMbSOgRPC10GX9_KqRqbPXkdEO8lsAILynDPzxFj1WyLyrS_lVk_sZleAFGs34EiPAgC-PoS_iNKmaqqhJxD9Oskd9HmrpxzUrvBcn8FV5yF6GXcf0Vi8_qkgRwQPrZAciHXS_QJsrw2RzUaHm4-AwiJFc4gAcEvh0W1b7pC-Raoj4WLjzlBpJDS0CdxP_u787RTxcf5iUePeAK7S4zF-63lGqVLHmkCgCRTgZq_5qELGfjaZKCwyOCmNbjwr8rXe_bWr2lm8RwCQ0LLrhPXTwfiZ4BILvPMLa3CiKf7H7E41InNPpOrQpbVGMgSR6cRSZrfBmwg=w960-h757-no?authuser=0"
+      "img_url": "Sanduiches/monster1.png"
     },
     {
       "id": 4,
       "name": "Big Chicken",
       "category": "Sanduíches",
       "price": 12,
-      "img_url": "https://lh3.googleusercontent.com/zkjMuxIbX0zR_rHb6JZAsS6NIQhVjxTB_scYgvOPlU6ELEvyhmU7DJPfHWz0PGzuWGoytEbbZPKU_PH_4AUHSTtTk-N99poWsZUNTMrM4S4J0YkcRcN2fwON2kpoZTEnoacyH9GOf_ACacnZjvRGyl-8plU8mqjqWStrHBCegIvEGOXQOOmsZwab1YTSqS_mHjCv3I2tDgnTQGPt7NKRq42wlq6-FbttEXd4zKhWL_tbzHEQWLPFQvdP2Kq8c18QMriBSud9yafsLEwZrTDzuXbaDfm9LLf5qBCjCfm3094rmNtIwLvIX4LOBArZsYDbx1bjfYgSpKZj3dsO6rMRX35i5ZfFmGYsPeTSctvFItgZrUMKFvliAA_HXKZmsfJL_4cnO8UcQLeJkZ5kHrXZW2kyvLvPyr-jaROdzjZ5v3G5k_N7MJTZpJZcE4fYj3q2aog35bq_Pso9SRM97Q3rBIHbVBsqX41R6okfDk7jOkXLrHjF1n3Yn9V_vv-5lJvo3Mo22ViTtJ9CyQakL7_L6br8Vshdm0JFSzKZQMQzHzr_Oou3uRlKigC8k48bHWdByIvhZrTdVpJr0Q0WHpazkXBY-F_-A5-NNCnVcemPcbBMPJfzBgG4DuW2kuA2CEVIePW4dfKTDZfb7wQ_3XeKpM7g00sTMTgsRARv-LM-Hh_yXj8W251pprxLDZyVgKusHCnpxuF3mwQsKDXiPWuyC6uzWg=w560-h442-no?authuser=0"
+      "img_url": "Sanduiches/frango.png"
     },
     {
       "id": 5,
       "name": "Kids",
       "category": "Sanduíches",
       "price": 8,
-      "img_url": "https://lh3.googleusercontent.com/Otn2fH0uUOEomRbzkOS-OOvF4US-h3f5yc8-Z15od4WnWL1rlO4qBxkTH-coA6zTEPRjEX6axRkO6W-kDc3dy0jJeSdyPCLF87YXc_F0jUxIRc49mt8MoP5O94a3IvEGV7z7OkJwQwqLUjACwG_dgs1NyIbJ3reGGKVQq_bbIWsiwtng8DxPgGIos7Dw4UMc4iw1BkZlXrrvhyEPyiNkCNPC9qdb4zhpWebR9bVvThopvywsMZL5S-aB3SCQ9QMlwka1VQgr8tN9Xm_r-gdR1s9zV-GvkYr9iDq_Z4Jec0X9i0-IXYh0Cso98f_KcpjfC3aleYj0ddl-2vibOeulBbyCyVLzGYHb5r_lv0jFact_7UJJSE5zobAVEXHqWXifo-iMy2U9Gcz7PWJrb0Si9oeGUJAQFxpwtQddsXQus46T3gyee97npmjK88bRuKjrUs4n1Sr33RWsOGHnteyOvmrBIwv-iAc5Rp99D3NCePW9-w69PCzO0bupQr14jy8KBuxus0qCvSOQtjcjCv0K-hR4tjh9qu5fgq1CBsopQkPtwffMVvHEK49WMuX-T5cbIjsT07EdfzGFGSJn6XCKd3dyGdCfbeoCerf1fqaAEeZhuzl1fKByIANjW2rFFvNUUCpKkSghr084PelmNXGdDWhKU3xJ4NM_3Yv-WZ3uAInTmr2_GmP1UI4YQaalZpICqwyR1RPjOGAApgf6b2OOyYhDeQ=w600-h404-no?authuser=0"
+      "img_url": "Sanduiches/frangoKids.png"
     },
     {
       "id": 6,
       "name": "Combo Individual",
       "category": "Combos",
       "price": 20,
-      "img_url": "https://lh3.googleusercontent.com/OdgXZ720HvHEQf9f9gjE9yFGNy4y1LJYE_W2EWRsljE5UpEfj3fJNcmk44HnQ-MGRcfZazwm5tmC7sJT-j73uw3p4Y0aEYVW8zQcOLBNa7jm9nXkIRCCTG0I55hPG9Iybo1nOCXlYgTxLZTxZRJrcDo-6yMfHNTmTHNzHJTVmMQEF8iMe-_6hGZEHo-YGgcrknb4x-8BGLOP6Vco7GxIHVk7Ef8VnItyI3jLdwJcnt7K2S3yh9RwptZJa1ndj_9HPER1PdexXcB27KhPRW_7lKGbpXJ8niFb2Y16Dg2-ykp2NWx4R_JSJqUldNI7avawE07RlcJymUN2D8LdNSOX8xI0rM5iLXVXCkOfDS3o03C3IfWRR_jVwv3T1XASSq3u46TwM4An8gATZGTWtsLhn9irG8j3sU4Pkp7P9kkLJyS4d8D5kM0GxKuBePgXuPGzhpSlCliUJ9fqLXDjVRmX0kPXAFARuwHcyj-AMzO9QGYNGmeKrYhhwVXVNcV9HOzqNWduYfB9RaToFF6F9AnrK43Ul79u9URambBuzmBeOwxztdB-aAR1-eza7xCAaFHXXmKti8UNVGZa1TIi-N5iFV114EZui2xMXLAoeKeA8Dctxo_GqTriJ8b2lpxvcck_OaXhLGAI4v08y0mCNME3Bfa2I3VftfOOw8jAz-d60xX7_hCb-eUi5Xscqtd1cjPxRmvtbtm_ZEvSW_mlLyOpNXArZA=w893-h788-no?authuser=0"
+      "img_url": "Combos/individual1.png"
     },
     {
       "id": 7,
       "name": "Refrigerante Lata 350ml",
       "category": "Bebidas",
       "price": 5,
-      "img_url": "https://lh3.googleusercontent.com/A3v7gCleEtx2_1DgSy3-tYVVBOX1U-MuHlEuVEXQwauQs0sUq3j2AS_QUt9-rFYULmq8vFCy4i2kAJUSCnzKVL5fF_uiZ7L5voeHTQGha6cSo5mfp-8ejFIvgTfUuDmuIE71VRYS8y2IAXcfcjqoDKv1H22EwKj29hXV_ed1jyxHYMx0O1XlH8JAXPoA0BTEB6QOCiId_VTrtHA-ypsWTXSUrp42ApdyKvfM0npchwe1KQi_RGJ-PVk5qGwkH4tfK2CBcqwjYruygftJtp0xMg-D7KgG9DOYH0HS3VTqJmSfeoP_jqM3hFRQLcnUKlI9Vw8kQFsv3bAY1iW-1VF0hNrd21nts1TIr0iMtJvlTwE_MbE2f5mpLn_KNl3g0asvo3vdaLIwjKmu1v0l1O-7f5mSLcDPUOZdu1DuDsyKcOs6Vx65Bbn9AXGFmXlaNRPrxcq94nPm-2loq5m2EjUxOUvOUr5yNU3HEkNGC5KZT47ypnjQ24Znb533KqGaq9M0TuqjWNhO4Z8Y8nUOq_F3spaz2r72K2YC6Efsm_58VD_k103lSiDhtxOLGCMysUZ1ypQconqIRQRbRdPhw7_D8uJS0ds9CjctD_lOPjKr_2r9idf2QQ_UUw2N8WbqUyn7HjvYj_n6BIjwqnLP119_neMMmWPGaxvTeTXcda8EUH0O0xCrZrm5qAK6hiFmVuZ69ItcnKB8S6wGic579hvxVteMlQ=w566-h449-no?authuser=0"
+      "img_url": "Bebidas/refrigerantesLata.png"
     },
     {
       "id": 8,
       "name": "Suco Natural laranja 350ml",
       "category": "Bebidas",
       "price": 5,
-      "img_url": "https://lh3.googleusercontent.com/ziBzttPNEBWNdblUAzgkX90tAhnWawYMjGwea2fBXyf2ThTQTgDUY1zVeGh_BfdQQTtVbJibvMzeecJQqM3uGdwVQw57KOkd1Rkio4G6NfYRfrIsTU5ZRw9RBoX4u9LEeUDOrVQsqsMImFj6XtmKL2ynGSOqJYq0ourwS-zW_5KAUFmwL5gD6DKn7K3_JvzMY0__yYLOBbnneqxsh-NGuKuB0w1m_dBpglRzbY8uRY72o6QpFwhRyhCasKThABBq_Oqt4mm24EgE4RLaB5WVfjSV8Fgl5BbJguvzUWYDOFMasdPjG-Scr-FGUAgpWSyGXfYLW2AnghNqpRwDCTTBETxyuLamSttaT9tYbL2aNIMxVzyvNAn686yFVn7YCAVpF9TZQfeJKy5rea5ecV8Ghetrua7KNvybpogInKK22n98ogx6E2SQaO2m7cwrSJVbx-gUaL0MplSsVVUNRrH50nJ24w5a4NCHcY2UWMmz-9_VkrrBd5QJFZbVwcnfPSu2XLG3MMQjhc9Zwfu68ApW133S0EgjroPs6cCaip7ytS87dOI2AyYpLNbmhIJGInH2PwvKVGsJvFlpBqGyMw-CtpY60eQtNVfERij32wnrwkxBEdDmliMfFutbX8zWtnoSW4FsZN_D741VP167nXt2lJTjmcI90N3fwjIPqNEzEXEKEVonMOMEuMCsfcbv8jUPdt3DQlxpRdHMA8rsCSZ8YAkqVQ=w650-h600-no?authuser=0"
+      "img_url": "Bebidas/sucoLaranja.png"
     },
     {
       "id": 9,
       "name": "Porção de Batata Frita",
       "category": "Porções",
       "price": 5,
-      "img_url": "https://lh3.googleusercontent.com/RXUBvK_ZgsUMW1afWN1qPLTpY3_L4AQJHmorud3szge1q2IKbLUxVS-mJuF_hTIt3r7RdVnW9g2rHcSKeEO-5fQ5nNNoHn2GljxIgpR4YvhVHxJVMH2im_ICJrjkghjv871S0H1KWxNoo-LL2tBcOtytLzYx29vjrnqxcQxnPpzi1aeogU6mV8X52e4fNVB9uVMZwX6zG_LVlAJYMGQ_BRGJdQdGXhwaD3uFuGxKBEGr7LwSTaLccXSqyhE-Ajj47yXpEX0H2Hm6c1Q8dJVyPzucItF58UXok4VqeyTZ1L13rlzOBE_I92I2n-4QtcrMLCkHhHfyvI4_3Q6tVqKGIsEDjdJReDkxyKPGDkiU6nIuGsAqsyDBhsBgI1Z77qXrbmSHUR62OWHTVNTOxU-n-8ZJ6hXMYxnBVsp9aVOlsyNGSBCjDosmldlC738PcudztEnyDGhIBm3dc2SbHNQDW77DgB1ilwPsWQKsvvnNACIOIKKHinZWfTQDaZdmivkY56nMW4VUzfRBtoU0BumtYDDioh28ZjckP_qnOzregRYf_rhLJUj65oyksmMa4SkkQajtcabUfRfqqNm6U-lqRBbHp5RjNP_UosaTt60Yw-rJTtSMjOUheqB2SWEZVQkZijBKGkiRfg6tTyB3i0cJwEY2WDnJyLQFDgWNMeYJvJeGOjmL4xcs3ysHbA_chg2EO2Smt9RhjMsf-sjmCseveFrCAw=w960-h719-no?authuser=0"
+      "img_url": "Porcoes/batata.png"
     },
     {
       "id": 10,
       "name": "Porção de Nuggets",
       "category": "Porções",
       "price": 5,
-      "img_url": "https://lh3.googleusercontent.com/XDXVGW5NiSneRM-fuZeKR6m0fJhEfyvFb3EtLIECFUwsCnz1YVGqGZxUnhVjjHKJzVXXiCZuDifuuuRNOtypWSuXKVT5A6cW1s8I0tAPczRmtAfF6SQvsjsHt5fXAVBKnP8I8uJ7e3HIdH1qR96FVmuhwqdX13Oc9-bLaJ82jJlF1u6BFMitLBg6tjfZNJ-NMzBsNItBHzHs72nFNELeJkybATBycLHWEH3XrJr-5Zk-frMUFF1OxwbfGFs2emDd_ZTXzkBfQWFV6OHUvAkL4x1FgsWzgzbagUmx3iW9sNfX4FhHrGSTvxCqwL2ET5Zd9YarzqDkuaitK4LdWL-KCOmsZAHd9BVJZQzYuhinTwbS_sYsggB7FgTvQ86QKjYcLLbFIFV5g6RNLszeSb9kEWE_m9ZtpKo16lXHnBkG8D-GECw0WI8tahkj2tH6aSnp4QiQtjAQUTq2R9F3Fto7rJ3tSerXmTBWPhDa5jcwlxszjX3skVV_Qf6Ufsaji3DXWOgeKLDt49-CQSjAu2L5q_4D68v8BWT4dnJ0k8hn9FtM_7tfrUrKqpteU5OzQB2gsR8h3GSnxsorjkGvBMosp0PU_BVzQUODPLgEiqBeZaSf9KJEDeAKXaDz2G9gY4YvTpp1SnMyxZC28KJHp_rzH-WnJaH6Pr8nlRcrHgnpc3S19H-9W1x1JQ-V7c-TLdod0Q3CA6S7jnA3QpFul3RHW15Xuw=w960-h743-no?authuser=0"
+      "img_url": "Porcoes/nuggets.png"
     }
   ],
   "carts": [
