@@ -5,6 +5,12 @@ Está é uma fake API criada utilizando as bibliotecas json-server e json-server
 <br/>
 <br/>
 
+<h2 align="center"><strong>URL Base</strong></h2>
+<p align="center">https://hamburgueria-2-backend.herokuapp.com/</p>
+
+<br/>
+<br/>
+
 <h2 align="center"><strong>Endpoints</strong></h2>
 
 Esta API possui um total de 6 endpoints destinados a cadastro e login de usuários, listar os produtos presentes no banco de dados, adicionar e remover produtos ao carrinho de compras, e listar os produtos adicionados ao carrinho.
@@ -23,7 +29,8 @@ Esta API possui um total de 6 endpoints destinados a cadastro e login de usuári
   "firstName": "John",
   "lastName": "Doe",
   "email": "johndoe@mail.com",
-  "password": "123456"
+  "password": "123456",
+  "cart": []
 }
 ```
 
@@ -36,6 +43,7 @@ Esta API possui um total de 6 endpoints destinados a cadastro e login de usuári
     "email": "johndoe@mail.com",
     "firstName": "John",
     "lastName": "Doe",
+    "cart": [],
     "id": 3
   }
 }
@@ -69,6 +77,7 @@ Esta API possui um total de 6 endpoints destinados a cadastro e login de usuári
     "email": "johndoe@mail.com",
     "firstName": "John",
     "lastName": "Doe",
+    "cart": [],
     "id": 3
   }
 }
@@ -117,55 +126,41 @@ Esta API possui um total de 6 endpoints destinados a cadastro e login de usuári
 
 ## _Adicionar produtos ao carrinho de compras_
 
--> POST /carts - Formato da requisição:
+-> PATCH /users/:userId - Formato da requisição:
 
 ```json
 {
-  "userId": 2,
-  "productId": 3
+  "cart": [
+    {
+      "id": 10,
+      "name": "Porção de Nuggets",
+      "category": "Porções",
+      "price": 5,
+      "img_url": "Porcoes/nuggets.png",
+      "qtd": 1
+    }
+  ]
 }
 ```
-
--> Status code 201 - Formato da resposta:
-
-```json
-{
-  "userId": 2,
-  "productId": 3,
-  "id": 10
-}
-```
-
-<br/>
-<br/>
-
-## _Remover produtos do carrinho de compras_
-
--> DELETE /carts/:cartId - Formato da requisição:
-
--> Status code 200 - Formato da resposta: Sem corpo
-
-<br/>
-<br/>
-
-## _Listar produtos presentes no carrinho_
-
--> GET /users/:userId?\_embed=carts - Formato da requisição: sem corpo
 
 -> Status code 200 - Formato da resposta:
 
 ```json
 {
-  "email": "johndoe@mail.com",
-  "password": "$2a$10$SNreM1hQJJLXpzpnh3E6zeK2NsL1idMyTO3hKD9Z.wUrpERSoVjyW",
-  "firstName": "John",
-  "lastName": "Doe",
-  "id": 3,
-  "carts": [
+  "email": "rafael@mail.com",
+  "password": "$2a$10$UP.MatAC5YLTzbi1T5HJLuS8SJ2aiZHnFUo.SHjeMtGSoz4bUUm8m",
+  "firstName": "Rafael",
+  "lastName": "Oliveira Carvalho",
+  "age": 34,
+  "id": 1,
+  "cart": [
     {
-      "userId": 3,
-      "productId": 3,
-      "id": 11
+      "id": 10,
+      "name": "Porção de Nuggets",
+      "category": "Porções",
+      "price": 5,
+      "img_url": "Porcoes/nuggets.png",
+      "qtd": 1
     }
   ]
 }
