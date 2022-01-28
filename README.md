@@ -26,8 +26,7 @@ Esta API possui um total de 6 endpoints destinados a cadastro e login de usuári
 
 ```json
 {
-  "firstName": "John",
-  "lastName": "Doe",
+  "nome": "John Doe",
   "email": "johndoe@mail.com",
   "password": "123456",
   "cart": []
@@ -41,8 +40,7 @@ Esta API possui um total de 6 endpoints destinados a cadastro e login de usuári
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvaG5kb2VAbWFpbC5jb20iLCJpYXQiOjE2NDI2OTEzMDUsImV4cCI6MTY0MjY5NDkwNSwic3ViIjoiMyJ9.N9ganD_bsI8eqT4Qg8dCs11YSdzhPnAMy0k64bIvyus",
   "user": {
     "email": "johndoe@mail.com",
-    "firstName": "John",
-    "lastName": "Doe",
+    "name": "John Doe",
     "cart": [],
     "id": 3
   }
@@ -75,8 +73,7 @@ Esta API possui um total de 6 endpoints destinados a cadastro e login de usuári
   "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvaG5kb2VAbWFpbC5jb20iLCJpYXQiOjE2NDI2OTIzODQsImV4cCI6MTY0MjY5NTk4NCwic3ViIjoiMyJ9.cElHg0CvBZx_aCyw1Utuqp7AXjcQUXyLpjE6UvQ0NCw",
   "user": {
     "email": "johndoe@mail.com",
-    "firstName": "John",
-    "lastName": "Doe",
+    "name": "John Doe",
     "cart": [],
     "id": 3
   }

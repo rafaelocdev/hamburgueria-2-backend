@@ -1,27 +1,11 @@
 {
   "users": [
     {
+      "name": "Rafael",
       "email": "rafael@mail.com",
       "password": "$2a$10$UP.MatAC5YLTzbi1T5HJLuS8SJ2aiZHnFUo.SHjeMtGSoz4bUUm8m",
-      "firstName": "Rafael",
-      "lastName": "Oliveira Carvalho",
-      "age": 34,
+      "cart": [],
       "id": 1
-    },
-    {
-      "email": "thati@mail.com",
-      "password": "$2a$10$d3NuR8byW3W0A.Vf3Ix23.wsRsXjELeEJMikrHXE4aeqBo7vHPfka",
-      "firstName": "Thatiane",
-      "lastName": "Aparecida Bezerra",
-      "age": 36,
-      "id": 2
-    },
-    {
-      "email": "johndoe@mail.com",
-      "password": "$2a$10$SNreM1hQJJLXpzpnh3E6zeK2NsL1idMyTO3hKD9Z.wUrpERSoVjyW",
-      "firstName": "John",
-      "lastName": "Doe",
-      "id": 3
     }
   ],
   "products": [
