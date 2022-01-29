@@ -162,3 +162,29 @@ Esta API possui um total de 6 endpoints destinados a cadastro e login de usuári
   ]
 }
 ```
+
+<br/>
+
+## _Limpar carrinho_
+
+-> PATCH /users/:userId - Formato da requisição:
+
+```json
+{
+  "cart": []
+}
+```
+
+-> Status code 200 - Formato da resposta:
+
+```json
+{
+  "email": "rafael@mail.com",
+  "password": "$2a$10$UP.MatAC5YLTzbi1T5HJLuS8SJ2aiZHnFUo.SHjeMtGSoz4bUUm8m",
+  "firstName": "Rafael",
+  "lastName": "Oliveira Carvalho",
+  "age": 34,
+  "id": 1,
+  "cart": []
+}
+```
